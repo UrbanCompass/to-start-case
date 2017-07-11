@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha --compilers js:babel-register"
+    "build": "node tools/build.js",
+    "prepare": "npm run build",
+    "test": "eslint . && mocha --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,10 @@
     "start",
     "case"
   ],
-  "author": "Zhuoyuan Zhang",
+  "contributors": [
+    "Zhuoyuan Zhang",
+    "Tal Netanyahu"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UrbanCompass/to-start-case/issues"
