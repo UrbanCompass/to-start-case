@@ -1,0 +1,44 @@
+{
+  "name": "to-start-case",
+  "version": "1.0.0",
+  "description": "Convert a string to Start Case for human display purposes.",
+  "main": "dist/to-start-case.js",
+  "module": "dist/to-start-case.mjs",
+  "esnext": "dist/to-start-case.mjs",
+  "browser": "dist/to-start-case.umd.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "prepublish": "npm run build",
+    "test": "eslint . && mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrbanCompass/to-start-case.git"
+  },
+  "keywords": [
+    "convert",
+    "conversion",
+    "string",
+    "start",
+    "case"
+  ],
+  "contributors": [
+    "Zhuoyuan Zhang <zhuoyuan@compass.com>",
+    "Tal Netanyahu <tal@compass.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UrbanCompass/to-start-case/issues"
+  },
+  "homepage": "https://github.com/UrbanCompass/to-start-case#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.2"
+  }
+}
