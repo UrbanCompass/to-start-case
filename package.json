@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha --compilers js:babel-register"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "babel-core": "^6.25.0",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.24.1",
+    "eslint": "^4.2.0",
     "mocha": "^3.4.2"
   }
 }
