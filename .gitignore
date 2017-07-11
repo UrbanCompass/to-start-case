@@ -1,6 +1,8 @@
 Mac OS X
 .DS_Store
 
+dist
+
 # Logs
 logs
 *.log

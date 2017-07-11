@@ -1,0 +1,16 @@
+#src
+src
+
+#tools
+tools
+.babelrc
+
+#tests
+test
+
+#build tools
+.circleci
+
+#linters
+.eslintignore
+.eslintrc.json
