@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Convert a string to Start Case for human display purposes.",
   "main": "dist/to-start-case.js",
+  "module": "dist/to-start-case.mjs",
+  "esnext": "dist/to-start-case.mjs",
+  "browser": "dist/to-start-case.umd.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "build": "node tools/build.js",
-    "prepare": "npm run build",
+    "prepublish": "npm run build",
     "test": "eslint . && mocha --compilers js:babel-register"
   },
   "repository": {
@@ -23,8 +26,8 @@
     "case"
   ],
   "contributors": [
-    "Zhuoyuan Zhang",
-    "Tal Netanyahu"
+    "Zhuoyuan Zhang <zhuoyuan@compass.com>",
+    "Tal Netanyahu <tal@compass.com>"
   ],
   "license": "MIT",
   "bugs": {
