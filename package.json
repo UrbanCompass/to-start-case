@@ -1,6 +1,6 @@
 {
   "name": "to-start-case",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert a string to Start Case for human display purposes.",
   "main": "dist/to-start-case.js",
   "module": "dist/to-start-case.mjs",
