@@ -1,4 +1,4 @@
-# to-start-case
+# to-start-case [![CircleCI](https://circleci.com/gh/UrbanCompass/to-start-case.svg?style=shield)](https://circleci.com/gh/UrbanCompass/to-start-case)
 Convert a string to Start Case for human display purposes.
 
 Converts a string, including strings in camelCase or snake_case, into Start Case (a variant
